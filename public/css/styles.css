@@ -10,8 +10,18 @@ body {
 .secret-text {
   text-align: center;
   font-size: 2rem;
-  color: #fff;
-  background-color: #000;
+  font-family: monospace;
+  color: #faf8f8;
+  background-color: #1b1b1e;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(68, 68, 68);
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease;
+}
+.secret-text:hover {
+  background-color: #faf8f8;
+  color: #1a1f1f;
+  transform: scale(1.04);
+  cursor: pointer;
 }
 
 /* Optional: Add vertical spacing for min-vh-100 containers */
