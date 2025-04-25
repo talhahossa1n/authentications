@@ -1,4 +1,4 @@
-# Secrets
+# Authentications
 
 Secrets is a full-stack web application that allows users to anonymously share secrets. It uses local authentication along with social logins (Google and Facebook) by leveraging Passport, Passport‑Local‑Mongoose, and OAuth strategies. Secrets are stored in a MongoDB database where each user can submit multiple secrets.
 
@@ -37,7 +37,7 @@ Before you begin, ensure you have these installed on your local machine:
 1. **Clone the Repository:**
 
    ```sh
-   git clone https://github.com/yourusername/secrets.git
+   git clone https://github.com/talhahossa1n/authentications.git
    cd secrets
    ```
 
